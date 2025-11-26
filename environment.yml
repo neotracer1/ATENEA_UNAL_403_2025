@@ -1,0 +1,39 @@
+name: analisis_datos
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+  
+  # Visualización
+  - plotly
+  - matplotlib
+  - seaborn
+  - ipywidgets
+  - notebook
+  - jupyterlab
+
+  # Ciencia de datos
+  - pandas
+  - numpy<=2.1.0
+  - scikit-learn
+  - scipy
+
+  # Datos espaciales
+  - geopandas
+  - rasterio
+
+  # Perfilado y análisis profundo de datos
+  - ydata-profiling
+  - numba<=0.60.0
+
+  # Otros útiles
+  - tqdm
+  - statsmodels
+  - requests
+
+  # Instalar dependencias complementarias vía pip
+  - pip:
+      - plotly-express
