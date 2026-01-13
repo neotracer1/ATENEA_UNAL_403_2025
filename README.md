@@ -1,6 +1,6 @@
-# Modelado de Calidad de Agua con Aprendizaje computacional
+## 1. Modelado de Calidad de Agua con Aprendizaje computacional
 
-## Descripción general
+### 1.1 Descripción general
 Este repositorio contiene un flujo completo de análisis, modelado y espacialización de parámetros de calidad de agua a partir de información espectral y variables auxiliares, utilizando técnicas de Machine Learning. El código principal se encuentra en el notebook `WQ_ML.ipynb`.
 
 El objetivo es predecir parámetros fisicoquímicos de calidad de agua a partir de datos extraídos previamente de imágenes satelitales (por ejemplo, Landsat) y almacenados en un Shapefile, para posteriormente reconstruir los resultados en formato espacial (raster).
