@@ -1,4 +1,4 @@
-# WQ_ML – Modelado de Calidad de Agua con Aprendizaje computacional
+# Modelado de Calidad de Agua con Aprendizaje computacional
 
 ## Descripción general
 Este repositorio contiene un flujo completo de análisis, modelado y espacialización de parámetros de calidad de agua a partir de información espectral y variables auxiliares, utilizando técnicas de Machine Learning. El código principal se encuentra en el notebook `WQ_ML.ipynb`.
